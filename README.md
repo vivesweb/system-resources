@@ -73,7 +73,7 @@ Example:
 
 - **GET A VALUE FROM BYTES TO NEXT MEASURE (B, KB, MB, GB, TB, PB):**
  
-This extra method helps to get results more Human understanding. It returns a value in Bytes, Kbytes, Mbytes, Gbytes, Tbytes, Pbytes. You pass to the method the value in integer Bytes.
+This extra method helps to get results more human readable. It returns a value in Bytes, Kbytes, Mbytes, Gbytes, Tbytes, Pbytes. You pass to the method the value in integer Bytes.
  
 *$sys_res->convert( INT );*
 
