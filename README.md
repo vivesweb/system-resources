@@ -71,6 +71,19 @@ Example:
 
 
 
+- **GET A VALUE FROM BYTES TO NEXT MEASURE (B, KB, MB, GB, TB, PB):**
+ 
+This extra method helps to get results more Human understanding. It returns a value in Bytes, Kbytes, Mbytes, Gbytes, Tbytes, Pbytes. You pass to the method the value in integer Bytes.
+ 
+*$sys_res->convert( INT );*
+
+Example:
+
+        $TotalHdBytes = $sys_res->Resources->fGetTotalHD();
+	$TotalHd = $sys_res->convert( $TotalHdBytes ); // return 2tb, for example
+
+
+
 - **GET CPU LOAD AVERAGE ( Only GNU/Linux ):**
 
   Get the CPU Average load over the last 1, 5 and 15 minutes, respectively
