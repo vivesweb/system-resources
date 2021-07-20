@@ -173,7 +173,7 @@ Example:
 
 
 
-- **GET CPU TEMPERATURE IN ºC ( Only GNU/Linux ):**
+- **GET CPU TEMPERATURE IN ºC ( Only GNU/Linux. Don't work on Virtual environments ):**
 
 Get CPU temperature in ºC.
 
