@@ -55,6 +55,22 @@ Example:
 
 
 
+- **GET OPERATING SYSTEM WINDOWS OR GNU/LINUX:**
+ 
+ By default, we ask for some string in PHP version. if 'WIN' string is in the string, then assume Operating System is Windows, else we assume is GNU/Linux
+ 
+*$sys_res->IsWindows;*
+
+Example:
+
+        if($sys_res->IsWindows){
+		echo 'Windows Server';
+	     } else {
+		echo 'Linux Server';
+	     }
+
+
+
 - **GET CPU LOAD AVERAGE ( Only GNU/Linux ):**
 
   Get the CPU Average load over the last 1, 5 and 15 minutes, respectively
@@ -221,6 +237,10 @@ Example:
  **1) GET SINGLE CPU TEMPERATURE**
  
  We can get the CPU temperature of a single CPU. Next version will have the option to get the Average temperature of all CPU's or the total CPU temperature of a single CPU.
+ 
+ **2) CREATE EMPTY METHODS ON WINDOWS CLASS FOR COMPATIBILITY WITH GNU/LINUX METHODS**
+ 
+ Most of functions used in GNU/Linux systems is not defined in Windows class. Next step will be create it with null return or something else. In this way, if we call a GNU/Linux function that does not exist in Windows, the system will not fail.
 
 
  
