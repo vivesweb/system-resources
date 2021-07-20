@@ -36,5 +36,15 @@ class system_resources
         }
 		
 	} // /__construct()
+	
+	
+    /**
+     * Returns a given value in bytes at its closest value in b, kb, mb, gb, tb, pb
+     * Original from https://www.programmersought.com/article/87232238278/
+     */
+    public function convert($size){
+    	$unit=array('b','kb','mb','gb','tb','pb');
+     	return @round($size/pow(1024,($i=floor(log($size,1024)))),2).' '.$unit[$i];
+    } // /convert()
 } // /system_resources class
 ?>
