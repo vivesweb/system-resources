@@ -80,7 +80,7 @@ This extra method helps to get results more Human understanding. It returns a va
 Example:
 
         $TotalHdBytes = $sys_res->Resources->fGetTotalHD();
-	$TotalHd = $sys_res->convert( $TotalHdBytes ); // return 2tb, for example
+	    $TotalHd = $sys_res->convert( $TotalHdBytes ); // return 2tb, for example
 
 
 
