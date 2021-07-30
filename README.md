@@ -266,6 +266,8 @@ Example:
  
  @author {@link http://www.inatica.com/ Inatica}
  
+ @blog {@link https://rafamartin10.blogspot.com/ Rafael Martin Blog}
+ 
  @since July 2021
  
  @version 1.0.0
