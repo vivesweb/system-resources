@@ -261,12 +261,15 @@ Example:
  
  By Rafa.
  
+ Developed and released by https://bio-farma.es
+ @link https://bio-farma.es
  
  @author Rafael Martin Soto
  
  @author {@link http://www.inatica.com/ Inatica}
  
  @blog {@link https://rafamartin10.blogspot.com/ Rafael Martin's Blog}
+ 
  
  @since July 2021
  
